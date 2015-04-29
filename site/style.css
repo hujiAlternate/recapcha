@@ -1,0 +1,137 @@
+@import url("http://fonts.googleapis.com/earlyaccess/alefhebrew.css"); /*For Aleph Font*/
+@font-face /*For Hadassim Font, provided by Culmus project*/
+{
+	font-family: Hadassim;
+	src: url('HadasimCLM-Regular.ttf'), url('HadasimCLM-Regular.eot'); /* eot for IE9 */
+}
+body
+{
+	direction: rtl;
+	text-align: right;
+	font-family: "Alef Hebrew", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14pt;
+	line-height: 1.5em;
+	width: 800px;
+	margin: 0 auto;
+	color: #333333;
+	background-color: #EAEFF2;
+}
+h1
+{
+	text-align: center;
+}
+p.description
+{
+	line-height: 1.75em;
+}
+p.description img
+{
+	float: left;
+	margin: 5px;
+}
+ol
+{
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	margin: 2em 0;
+}
+ul
+{
+	list-style-type: none;
+	overflow: hidden;
+	padding: 0;
+	margin: 1em auto;
+	width: 780px;
+}
+ul li
+{
+	float: right;
+	border: 1px solid black;
+	margin: 5px;
+	width: 222px;
+	height: 200px;
+	text-align: center;
+	filter: alpha(opacity=40);	/* Microsoft Browser downloader (a.k.a. IE) */
+	opacity: 0.4;				/* Browsers */
+}
+ul li.current_browser
+{
+	filter: alpha(opacity=100);	/* Microsoft Browser downloader (a.k.a. IE) */
+	opacity: 1;					/* Browsers */
+}
+ul li > a
+{
+	text-decoration: none;
+}
+ul li span
+{
+	display: block;
+	background-color: lightblue;
+	height: 3em;
+	margin-bottom: 0.5em;
+}
+ol > li
+{
+	overflow: hidden;
+	min-height: 80px;
+}
+ol > li > span
+{
+	float: right;
+}
+ol li span.number
+{
+	font-size: 80pt;
+	line-height: 50pt;
+	width: 60px;
+	float: right;
+	display: block;
+}
+ol li span.text,
+ol li span.download
+{
+	width: 735px;
+	float: right;
+	display: block;
+}
+ol li.download
+{
+	padding: 5px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+ol li.download :hover
+{
+	opacity: 0.8;
+}
+ol li.download span.number
+{
+	margin-top: 0;
+}
+ol li.download span.download
+{
+	background-image: linear-gradient(to bottom, #81BC2E, #659324);
+	display: block;
+	color: white;
+	height: 75px;
+	line-height: 75px;
+	padding: 5px;
+	text-align: center;
+	vertical-align: middle;
+	width: 300px;
+	margin: 0 170px 0 0;
+}
+ol li.download span.download a, 
+ol li.download span.download a:visited
+{
+	color: white;
+	font-weight: bold;
+	font-size: 16pt;
+	text-decoration: none;
+	display: block;
+}
+ul li img
+{
+	width: 128px;
+}
